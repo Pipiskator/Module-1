@@ -1,110 +1,54 @@
-html {
-    font-size: 20px;
-    font-family: Arial, sans-serif;
-    height: 100vh;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио</title>
+    <link rel="stylesheet" href="stile.css">
+    <link rel="stylesheet" href="da.css">
+</head>
+<body>
+    <main>
+        <div class="portfolio-card">
+            <div class="profile-picture">
+                <img src = "https://i.pinimg.com/564x/b1/0d/9a/b10d9a6e85ac9e8adf26858a24f0e925.jpg" alt="Profile Picture">
+            </div>
 
-}
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: auto;
-    padding: 0;
-    background-color: #f4f4f4;
-    background-image: url("https://i.pinimg.com/564x/81/d5/ee/81d5eee256f54e2118b86d7b6156b667.jpg");
-    background-size: cover;
-    background-position: center;
-}
+            <h1>Чичиков Александр</h1>
+            <h2>Программатор 1-го разряда</h2>
 
-.portfolio-card {
-    position: relative;
-    max-width: 450px;
-    margin: auto;
-    background-color: rgba(170, 208, 246, 0.35);
-    padding: 20px;
-    box-shadow: 0 0 20px rgb(0, 0, 0);
-    border-radius: 50px;
-    overflow: hidden;
-    backdrop-filter: blur(10px);
-}
+            <h3>Образование</h3>
+            <p>Садик</p>
+            <p>Школа</p>
+            <p>Почти бакалвриат</p>
 
-.profile-picture {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin: 0 auto 20px;
-    overflow: hidden;
-    border: 5px solid #a84d00;
-}
+            <h3>Навыки</h3>
+            <p>HTML</p>
+            <p>Python</p>
+            <p>C++</p>
+            <p>Java</p>
 
-.profile-picture img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+            <section>
+                <h3 id="centered">Мои контакты</h3>
+                <div class="flex__container">
+                    <div class="flex__element">
+                        <h3 class="flex__title">Почта</h3>
+                        <a style="color: dodgerblue; margin-top: 0" href="https://t.me/socialius">Алехандро</a>
+                    </div>
 
-h1, h2, h3, p {
-    color: #333;
-    margin: 0;
-}
+                    <div class="flex__element">
+                        <h3 class="flex__title">Github</h3>
+                        <a style="color: dodgerblue; margin-top: 0" href="https://github.com/Pipiskator">Pipiskator</a>
+                    </div>
+                    <div class="flex__element">
+                        <h3 class="flex__title">Почта</h3>
+                        <a style="color: dodgerblue; margin-top: 0" href="mailto:sasacicikoov@gmail.com">sasacicikoov@gmail.com</a>
+                    </div>
 
-p{
-    font-family: Verdana, sans-serif;
-    text-indent: 50px;
-    margin-bottom: 8px;
-    color: #555;
-}
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-    color: #555;
-}
-
-h3 {
-    /*margin-top: 20px;*/
-    /*margin-bottom: 20px;*/
-    color: #a84d00;
-}
-#centered {
-    /*margin-top: 20px;*/
-    /*margin-bottom: 20px;*/
-    text-align: center;
-    color: #a84d00;
-}
-
-.flex__container {
-    margin-top: 20px;
-    display: flex;
-    gap: 15px;
-    flex-direction: row;
-    flex-wrap: wrap;
-     justify-content: space-around;
-}
-
-.flex__element {
-    /*flex: 1;*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-self: stretch;
-    max-width: 300px;
-
-    background-color: rgb(170, 208, 246);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.23);
-
-    margin: 5px;
-    padding: 5px 15px;
-
-    margin-bottom: 15px;
-}
-
-.flex__element .flex__title {
-    margin-bottom: 0;
-    color: rgba(0, 150, 255, 0.8);
-    text-shadow:
-            2px 2px 5px rgba(0, 150, 255, 0.4);
-}
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
