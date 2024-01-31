@@ -14,7 +14,6 @@ body {
 }
 
 .portfolio-card {
-    position: relative;
     max-width: 550px;
     margin: 50px auto;
     background-color: rgba(170, 208, 246, 0.35);
