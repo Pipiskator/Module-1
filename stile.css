@@ -5,7 +5,7 @@ html {
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     background-image: url("https://i.pinimg.com/564x/81/d5/ee/81d5eee256f54e2118b86d7b6156b667.jpg");
@@ -14,7 +14,7 @@ body {
 }
 
 .portfolio-card {
-    position: absolute;
+    position: relative;
     max-width: 550px;
     margin: 50px auto;
     background-color: rgba(170, 208, 246, 0.35);
