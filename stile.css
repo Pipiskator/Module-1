@@ -15,7 +15,7 @@ body {
 
 .portfolio-card {
     max-width: 550px;
-    margin: 50px auto;
+    margin: 0 auto;
     background-color: rgba(170, 208, 246, 0.35);
     padding: 20px;
     box-shadow: 0 0 20px rgb(0, 0, 0);
