@@ -1,7 +1,7 @@
 html {
     font-size: 20px;
     font-family: Arial, sans-serif;
-    height: 100vh;
+    height: auto;
 
 }
 body {
@@ -16,9 +16,8 @@ body {
 }
 
 .portfolio-card {
-    position: relative;
     max-width: 450px;
-    margin: auto;
+    margin: 0 auto;
     background-color: rgba(170, 208, 246, 0.35);
     padding: 20px;
     box-shadow: 0 0 20px rgb(0, 0, 0);
@@ -57,11 +56,10 @@ p{
 h1 {
     text-align: center;
 }
-
-h2 {
-    text-align: center;
-    color: #555;
+h2{
+    color: saddlebrown;
 }
+
 
 h3 {
     /*margin-top: 20px;*/
@@ -72,7 +70,6 @@ h3 {
     /*margin-top: 20px;*/
     /*margin-bottom: 20px;*/
     text-align: center;
-    color: #a84d00;
 }
 
 .flex__container {
@@ -108,4 +105,9 @@ h3 {
     color: rgba(0, 150, 255, 0.8);
     text-shadow:
             2px 2px 5px rgba(0, 150, 255, 0.4);
+}
+c {
+    text-align: center;
+    font-size: 1.17em;
+    font-weight: bold;
 }
